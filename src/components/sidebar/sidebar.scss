@@ -1,0 +1,50 @@
+.sidebar {
+    width: 230px;
+    background: #FFF;
+    box-shadow: 2px 0px 8px 0px rgba(0, 0, 0, 0.15);
+    position: relative;
+    z-index: 2;
+
+    .logo {
+        text-align: center;
+        padding: 35px 0px 35px 0px;
+        text-align: center;
+
+        img {
+            width: 65%;
+            height: auto;
+        }
+    }
+
+    .btncontanier {
+
+        .but {
+            width: 85%;
+            display: flex;
+            justify-content: flex-start;
+            margin: auto;
+            text-transform: none;
+            border-radius: 10px;
+            margin-bottom: 15px;
+            color: #7A7A7A;
+            background-color: transparent;
+            box-shadow: none;
+            padding-top: 10px;
+            padding-bottom: 10px;
+            font-weight: bold;
+            letter-spacing: .7px;
+            font-size: 12px;
+
+            img {
+                margin-left: -4px;
+                margin-right: 10px;
+            }
+        }
+
+
+        .active {
+            background-color: #004699;
+            color: white;
+        }
+    }
+}
