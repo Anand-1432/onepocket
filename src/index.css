@@ -9,4 +9,5 @@
   height: 100vh;
   display: grid;
   grid-template-columns: 230px 1fr;
+  position: relative;
 }

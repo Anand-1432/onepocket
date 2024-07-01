@@ -1,8 +1,11 @@
 .sidebar {
     width: 230px;
+    height: 100vh;
     background: #FFF;
     box-shadow: 2px 0px 8px 0px rgba(0, 0, 0, 0.15);
-    position: relative;
+    position: fixed;
+    top: 0px;
+    left: 0px;
     z-index: 2;
 
     .logo {

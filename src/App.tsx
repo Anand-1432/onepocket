@@ -5,7 +5,9 @@ const App = () => {
   return (
     <>
       <div className="appContanier">
-        <SideBar />
+        <div>
+          <SideBar />
+        </div>
         <Product />
       </div>
     </>
